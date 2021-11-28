@@ -7,7 +7,8 @@ function Header () {
 
 
       <div className="nav-wrapper">
-      <img className="img" src="/icons/player.png" alt=""/>
+      <img className="img"  src={process.env.PUBLIC_URL + '/icons/player.png'}/>
+      
       <a href="#" className="brand-logo">Movie Library</a>
       <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li>
