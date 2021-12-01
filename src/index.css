@@ -46,20 +46,36 @@ nav {
 
 .input-field {
 
-          width:100%;
+          width: 100%;
           margin-top: 2.2rem;
-
+          
 }
 
+.input-field input[type=search] {
+  display: block;
+  line-height: inherit;
+  -webkit-transition: .3s background-color;
+  transition: .3s background-color;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-bottom: 2px solid #e0e0e0;
+  
+  
+}
 
+.input-field input[type=search]::placeholder {
+
+    padding-left: 5px;
+
+}
 
 .waves-effect {
 
        position: absolute;
-       top: 0;
-       right: 0.5rem;
+       top: 4px;
+       right: 0.0rem;
        background-color: #5c6bc0;
-
+      
 }
 
 .waves-effect:hover {
@@ -67,8 +83,6 @@ nav {
     background-color: #8c9eff;
 
 }
-
-
 
 
 
@@ -94,47 +108,140 @@ label {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1180px) {
 
-  .btn {
-    
-    height: 33px;
-    width: 70px;
-    font-size: 12px;
-    padding: 0 10px;
-    margin-top:5px;
+  .waves-effect {
 
-     }
-         
+    position: absolute;
+    top: 3px;
+    right: 0.0rem;
+    background-color: #5c6bc0;
+   
+}
+
 
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
 
-  .page-footer {
-  
-    padding-top: 20px;
+  .waves-effect {
+
+    position: absolute;
+    top: 1px;
+    right: 0.0rem;
+    background-color: #5c6bc0;
+   
+}
+
+
+.btn {
+
+        margin-top:2px;
+
+      }
+
+
+.brand-logo {
+    
+  margin-left: 10px;
+
+}
+
+
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  .brand-logo {
+    
+    margin-left: 5px;
   
   }
 
 
-} 
+}
+
+/* Small Devices, Tablets */
 
 
+@media only screen and (max-width: 571px) {
 
-@media only screen and (max-width: 375px)  {
-
-    .btn {
-
-    height: 30px;
-    width: 65px;
-    font-size: 11px;
-    padding: 0px 10px;
-    line-height: 3;
-    margin-top:9px;
+  .brand-logo {
     
+    margin-left: -8px;
+  
+  }
+
+
+}
+
+
+@media only screen and (max-width: 450px)  {
+
+
+
+  .input-field input[type=search] {
+    display: block;
+    line-height: inherit;
+    -webkit-appearance: none;
+    -webkit-transition: .3s background-color;
+    transition: .3s background-color;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-bottom: 2px solid #e0e0e0;
+    
+    
+  }
+
+  .brand-logo {
+    
+    margin-left: -4px;
+  
+  }
+
+
+  .input-field {
+
+    width: 100%;
+    margin-top: 2.2rem;
+    -webkit-appearance: none;
+    border-radius: 0;
+  
      }
+
+
+  .waves-effect {
+
+    position: absolute;
+    top: 0px;
+    right: 0.0rem;
+    background-color: #5c6bc0;
+    
+}
+
+  .btn {
+
+  height: 30px;
+  width: 65px;
+  font-size: 11px;
+  padding: 0px 10px;
+  line-height: 2.8;
+  margin-top:8px;
+   }
+
+
+}
+
+
+@media only screen and (max-width: 420px)  {
+
+  .brand-logo {
+    
+    margin-left: 0px;
+  
+  }
 
 
 }
