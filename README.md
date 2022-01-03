@@ -8,4 +8,6 @@ This application is able to handle failed search as well.
 
 API key is encrypted.
 
+Check the completed app: https://ampodo.github.io/movies/
+
 /________________________________________________________________________\
